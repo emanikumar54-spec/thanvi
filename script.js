@@ -112,3 +112,18 @@ alert("🎂 Happy Birthday Thanvi ❤️");
 }
 
 birthdayWish();
+function checkPassword() {
+
+const password = document.getElementById("pass").value;
+
+if(password === "2311"){
+
+startGift();
+
+}else{
+
+alert("❌ Wrong Password ❤️");
+
+}
+
+}
