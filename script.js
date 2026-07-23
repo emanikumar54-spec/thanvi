@@ -134,3 +134,4 @@ alert("❌ Wrong Password ❤️");
 }
 
 }
+console.log("Script Loaded");
