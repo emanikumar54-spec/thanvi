@@ -4,8 +4,15 @@ const loading = document.getElementById("loading");
 const main = document.getElementById("main");
 
 function startGift() {
-    loading.style.display = "none";
-    main.style.display = "block";
+
+document.getElementById("pass").style.display = "none";
+
+const btn = document.querySelector('button[onclick="checkPassword()"]');
+if(btn) btn.style.display = "none";
+
+loading.style.display = "none";
+main.style.display = "block";
+
 }
 
 function hideAllPages() {
